@@ -1,9 +1,9 @@
 # neutron-net-setup
 
 ### netsetup.sh
-- Creates a provider net/subnet *public/public-subnet*
-- Creates a tenant net/subnet *private/private-subnet*
-- Creates a router *public-private*
+- Creates a provider net/subnet (*public/public-subnet*)
+- Creates a tenant net/subnet (*private/private-subnet*)
+- Creates a router (*public-private*)
 - Sets a router gateway
 - Adds an interface between the router and the tenant subnet
 - Adds security group rules for ingress/egress ssh, and ingress icmp traffic
