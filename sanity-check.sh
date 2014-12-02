@@ -11,7 +11,7 @@ neutron floatingip-associate $F_ID $P_ID
 
 if [[ `ping -c 1 $F_IP | grep "100%"` ]]; then
     echo "Failed to ping instance!"
-    echo "Will not clean up automatically..."
+    echo "Will not clean up automagically..."
     echo "Command for manual deletion:"
     echo "neutron floatingip-delete $F_ID; nova delete $INSTANCE_NAME"
     exit
